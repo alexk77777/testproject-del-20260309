@@ -1,14 +1,75 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="ko">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hello World</title>
-  <link href='./style.css' rel='stylesheet'>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>맛있는 기록, 쿠킹 허브 - 홈</title>
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <h1>Hello, world!</h1>
-  <button id="theme-toggle">다크/화이트 모드 전환</button>
-  <script defer type="text/javascript" src="./main.js"></script>
+  <header>
+    <nav class="container">
+      <div class="logo">🍳 CookingHub</div>
+      <ul class="nav-links">
+        <li><a href="index.html">홈</a></li>
+        <li><a href="about.html">소개</a></li>
+        <li><a href="privacy.html">개인정보처리방침</a></li>
+        <li><a href="contact.html">문의</a></li>
+      </ul>
+      <button id="theme-toggle">🌓</button>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>더 건강하고 맛있는 일상을 위한 레시피</h1>
+      <p>신선한 재료와 정성을 담은 독창적인 요리 팁을 공유합니다.</p>
+    </section>
+
+    <section class="content-grid">
+      <article class="card">
+        <h2>집에서도 즐기는 레스토랑급 스테이크 굽기</h2>
+        <p>마이야르 반응의 원리부터 리스팅까지, 집에서도 완벽한 굽기를 구현하는 과학적인 비결을 소개합니다.</p>
+        <a href="#" class="read-more">레시피 보기</a>
+      </article>
+      <article class="card">
+        <h2>실패 없는 5분 아침 식사: 오트밀의 변신</h2>
+        <p>바쁜 아침, 건강과 맛을 모두 잡는 3가지 스타일의 오트밀 레시피로 활기찬 하루를 시작해 보세요.</p>
+        <a href="#" class="read-more">레시피 보기</a>
+      </article>
+      <article class="card">
+        <h2>초보 요리사를 위한 필수 향신료 가이드</h2>
+        <p>요리의 풍미를 결정짓는 핵심 향신료 5가지와 이를 활용한 간단한 페어링 기법을 정리해 드립니다.</p>
+        <a href="#" class="read-more">팁 확인하기</a>
+      </article>
+      <article class="card">
+        <h2>제철 채소를 활용한 저탄고지 샐러드 드레싱</h2>
+        <p>시판 드레싱 대신 직접 만드는 건강한 오일 드레싱으로 샐러드의 맛을 한 단계 업그레이드하세요.</p>
+        <a href="#" class="read-more">레시피 보기</a>
+      </article>
+      <article class="card">
+        <h2>주말에 도전하는 수제 파스타 생면 만들기</h2>
+        <p>밀가루와 달걀만으로 만드는 쫄깃한 생면의 매력! 가족과 함께 즐기는 요리 시간을 가져보세요.</p>
+        <a href="#" class="read-more">레시피 보기</a>
+      </article>
+      <article class="card">
+        <h2>환경을 생각하는 '제로 웨이스트' 주방 습관</h2>
+        <p>식재료 손질부터 보관까지, 주방에서 실천할 수 있는 작지만 확실한 환경 보호 팁을 나눕니다.</p>
+        <a href="#" class="read-more">팁 확인하기</a>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 CookingHub. All rights reserved.</p>
+      <ul class="footer-links">
+        <li><a href="privacy.html">개인정보처리방침</a></li>
+        <li><a href="terms.html">이용약관</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script defer src="./main.js"></script>
 </body>
 </html>
